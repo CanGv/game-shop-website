@@ -1,0 +1,94 @@
+html, body, * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.Template {
+  background-color: #0D171F;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+.Navbar {
+  display: flex  !important;
+  justify-content: space-between !important;
+}
+    .Navbar__Search {
+    background-color: #1C2C3B;
+    }
+    .Navbar__Collapse {
+    flex-grow: inherit;
+    }
+    .Navbar__Favorite{
+        background-color: #1C2C3B;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px;
+        padding: 20px;
+    }
+    .Navbar__Basket{
+        background-color: #1C2C3B;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px;
+        padding: 20px;
+    }
+
+.SearchBar{
+border: none;
+background-color: #1C2C3B;
+width: 100%;
+border-radius: 12px;
+height: 50px;
+display: flex;
+align-items: center;
+padding: 0 40px;
+}
+    .SearchBar__Input{
+        border: none;
+        background: none;
+    }
+    .SearchBar__Input::placeholder{
+        color: white;
+        opacity: 0.50;
+    }
+
+    .SearchBar__Categorize{
+        border: none;
+        background: none;
+        background-color: #26435e;
+        width: 50px;
+        height: 36px;
+        border-radius: 6px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+      .Swiper .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 580px;
+      }
+
+   
+
+      .Swiper .swiper-slide img {
+      display: block;
+      width: 100%;
+      border-radius: 30px;
+    }
