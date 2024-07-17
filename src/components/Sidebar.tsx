@@ -17,7 +17,6 @@ function Sidebar() {
 							<p>My Library</p>
 						</div>
 						<div>
-
 						</div>
 					</div>
 				</div>
